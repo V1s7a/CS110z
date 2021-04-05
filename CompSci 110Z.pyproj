@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ca749bbd-107d-4b1b-bb8b-3e57c00f01d5}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>pex2.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Bouncing_Balls.py" />
+    <Compile Include="circle.py" />
+    <Compile Include="CompSci 110z Project\GateChecks\gc5.py" />
+    <Compile Include="CompSci 110z Project\gc4.py" />
+    <Compile Include="CompSci 110z Project\gc5.py" />
+    <Compile Include="CompSci 110z Project\lander.py" />
+    <Compile Include="CompSci 110z Project\Lunar_Lander.py" />
+    <Compile Include="crypto_helper.py" />
+    <Compile Include="distance.py" />
+    <Compile Include="end.py" />
+    <Compile Include="gc1_pptx.py" />
+    <Compile Include="hello.py" />
+    <Compile Include="hw6_1.py" />
+    <Compile Include="Lesson_5.1.py" />
+    <Compile Include="loopsL6.py" />
+    <Compile Include="lsn05_graphics_ex1.py" />
+    <Compile Include="lsn10_area_tri.py" />
+    <Compile Include="lsn10_circle.py" />
+    <Compile Include="lsn10_distance.py" />
+    <Compile Include="lsn10_in_circle.py" />
+    <Compile Include="lsn10_newton.py" />
+    <Compile Include="lsn11_jiffy.py" />
+    <Compile Include="lsn11_max.py" />
+    <Compile Include="lsn11_miles.py" />
+    <Compile Include="lsn14_examples\Lsn14_example_1of5.py" />
+    <Compile Include="lsn14_examples\Lsn14_example_2of5.py" />
+    <Compile Include="lsn14_examples\Lsn14_example_3of5.py" />
+    <Compile Include="lsn14_examples\Lsn14_example_4of5.py" />
+    <Compile Include="lsn14_examples\Lsn14_example_5of5.py" />
+    <Compile Include="lsn5_graphics_ex2.py" />
+    <Compile Include="pex w code.py" />
+    <Compile Include="pex2.py" />
+    <Compile Include="randomGraph.py" />
+    <Compile Include="triangle.py" />
+    <Compile Include="What_Not_To_Wear.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CompSci 110z Project\lander.jpg" />
+    <Content Include="CompSci 110z Project\lander.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CompSci 110z Project" />
+    <Folder Include="CompSci 110z Project\GateChecks" />
+    <Folder Include="lsn14_examples" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
